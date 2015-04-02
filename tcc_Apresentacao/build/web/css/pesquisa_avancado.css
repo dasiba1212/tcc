@@ -1,0 +1,132 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 06/06/2014, 03:45:50
+    Author     : David
+*/
+.conteudo{
+    min-height: 500px;
+}
+#mapa{
+     filter:alpha(opacity=90);
+    -moz-opacity:.90;
+    opacity:.90;
+    width:100%;
+    height:110%;
+    background-color:#000000;
+    position:absolute;
+    top:0px;
+    left:0px;
+    z-index:1;
+    display:none;
+}
+
+#c_mapa{
+    height: 500px;
+    width: 900px;
+}
+#c_botton{
+    margin-top: 100px;
+    width: 900px;
+    text-align: left;
+}
+#infor_endereco{
+    background-color: wheat;
+    width: 500px;
+    float: right 
+}
+
+.pesquisa{
+    margin: 10px auto;
+    width: 100%;
+    height: 250px;
+    border: solid 1px;
+    display: inline-block;
+}
+#camp_pesq{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+.tabela{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+    overflow: auto;
+    max-height: 500px;
+}
+.table_alter{
+    width: 600px;
+}
+.table_alter span{
+    font-size: 11px;
+    color: #00aeef;  
+}
+.table_alter input[type=text]{
+    width: 99%;    
+}
+
+
+#entrada {
+    width: 250px; height: 45px; font-size: 16px;  color: #bebebe ;
+}
+#entrada:focus{
+    color: #000000;
+}
+.selet{
+    width: 100%;
+    border: solid 1px #A6A196; 
+    height: 100px;
+}
+.selet span{
+    display: inline-block;
+    margin-top: 23px;
+}
+.selet span [type="button"]{
+    height: 50px;
+    width:  80px;
+}
+select{
+    width: 250px;
+    height: 50px;
+}
+
+.pesquisa_avancada a  { text-decoration: none; color: #f96406; }
+
+mp_pesq{
+    width: 100%;
+}
+#tabela{
+    width: 100%;
+    text-align: center;
+}
+#tabela tr td{
+    width: 30%;
+}
+
+
+.dado{
+    margin-bottom: 20px;
+    border-collapse: collapse;
+    font-size:  11px;    
+    color: #095676;
+    padding: 10px;
+    border-right: solid #ffffff;
+}
+.dado th{
+    color: #00aeef;  
+}
+.dado tr td, .dado th{
+    border: 1px solid #ffffff;
+}
+
+#boton_canc{
+    margin-left: 10px;
+}
+#boton_conf{
+    margin-right: 10px;
+}
+
